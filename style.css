@@ -1,0 +1,59 @@
+body {
+    background-color: #3d3d3d;
+    color: white;
+    margin: 5;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+nav, article {
+    width: 100%;
+    padding: 15px;
+}
+
+header, footer {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 15px;
+    font-size: 40px;
+    font-family: "Brandon Text Bold", sans-serif;
+}
+
+nav {
+    background-color: hotpink;
+    color: white;
+    flex: 10%;
+    font-family: "Brandon Text Bold", sans-serif;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+article {
+    background-color: #3d3d3d;
+    color: white;
+    font-family: "Brandon Text Bold", sans-serif;
+}
+
+article p {
+    font-size: 20px;
+}
+
+article h1 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+}
